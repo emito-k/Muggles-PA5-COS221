@@ -4,6 +4,11 @@ Group project for COS 221 that is due in the 1st of June.
 # checklist
 ***This is a list of items to complete***
 
+## Testing formats
+- ~~After you're done making whatever, do this~~
+- When you're doing a Task make sure to add your name in brackets at the end (mito)
+- Send over your files to this github respository
+
 # Research
 - General overview  and explanation
 - Team or single sport explained
