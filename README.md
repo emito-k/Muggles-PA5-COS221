@@ -8,7 +8,7 @@ Group project for COS 221 that is due in the 1st of June.
 - ~~After you're done making whatever, do this~~
 - When you're doing a Task make sure to add your name in brackets at the end (mito)
 - Send over your files to this github respository
-
+Cancel changes
 # Research
 - General overview  and explanation
 - Team or single sport explained
@@ -16,12 +16,12 @@ Group project for COS 221 that is due in the 1st of June.
 - Location/Date/Time
 - Sport structure e.g. federation/regions/teams/players
 
-# (E)ER-diagram
+# (E)ER-diagram (Yashvitha)
 - Entities and Attributes
 - Complex and Derived Attributes
 - Relationships and cardinality
 
-# Mapping
+# Mapping (Yashvitha)
 - Regular Entity Types
 - Weak Entity Types
 - 1:1 Relationships
