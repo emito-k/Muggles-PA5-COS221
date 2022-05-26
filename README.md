@@ -9,7 +9,7 @@ Group project for COS 221 that is due in the 1st of June.
 - When you're doing a Task make sure to add your name in brackets at the end (mito)
 - Send over your files to this github respository
 Cancel changes
-# Research
+# Research(Apinda)
 - General overview  and explanation
 - Team or single sport explained
 - Actions
