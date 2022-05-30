@@ -7,7 +7,7 @@ Group project for COS 221 that is due in the 1st of June.
 ## Testing formats
 - ~~After you're done making whatever, do this~~
 - When you're doing a Task make sure to add your name in brackets at the end (mito)
-- Send over your files to this github respository
+- ~~Send over your files to this github respository
 Cancel changes
 # Research(Apinda)
 - General overview  and explanation
@@ -21,7 +21,7 @@ Cancel changes
 - Complex and Derived Attributes
 - Relationships and cardinality
 
-# Mapping (Yashvitha)
+# Mapping (Yashvitha, Sovaria)
 - Regular Entity Types
 - Weak Entity Types
 - 1:1 Relationships
@@ -41,7 +41,7 @@ Cancel changes
 - Checks on applicable fields
 - Correctness
 
-# Web Management
+# Web Management (Mito)
 - Player Management
 - Sport Heirarchy Management
 - Media Management
