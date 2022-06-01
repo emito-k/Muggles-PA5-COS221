@@ -10,11 +10,11 @@ Group project for COS 221 that is due in the 1st of June.
 - ~~Send over your files to this github respository
 Cancel changes
 # Research(Apinda)
-~- General overview  and explanation
-~- Team or single sport explained
-~-Actions
-~- Location/Date/Time
-~- Sport structure e.g. federation/regions/teams/players
+- ~~General overview  and explanation
+- ~~Team or single sport explained
+-~Actions
+- ~~Location/Date/Time
+- ~~Sport structure e.g. federation/regions/teams/players
 
 # (E)ER-diagram (Yashvitha)
 - Entities and Attributes
