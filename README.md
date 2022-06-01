@@ -12,7 +12,7 @@ Cancel changes
 # Research(Apinda)
 ~- General overview  and explanation
 ~- Team or single sport explained
-~- Actions
+~-Actions
 ~- Location/Date/Time
 ~- Sport structure e.g. federation/regions/teams/players
 
