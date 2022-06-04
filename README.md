@@ -1,10 +1,10 @@
 # Muggles-PA5-COS221
 ## Members
-u19025492 - Miss. Yashvitha Kanaparthy
-u20665777 - Mr. Tiyego Khoza (Owner)
-u20776340 - Mr. Mishaelin Naidoo
-u20543043 - Ms. Apinda Tekula
-u20450207 - Miss. Sovaria Naidu 
+- u19025492 - Miss. Yashvitha Kanaparthy
+- u20665777 - Mr. Tiyego Khoza (Owner)
+- u20776340 - Mr. Mishaelin Naidoo
+- u20543043 - Ms. Apinda Tekula
+- u20450207 - Miss. Sovaria Naidu 
 
 Group project for COS 221 that is due in the 8th of June.
 
