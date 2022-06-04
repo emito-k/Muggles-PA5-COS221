@@ -40,7 +40,7 @@ Cancel changes
 - Unions
 - Correctness
 
-# Relation Exclusion
+# Relation Exclusion (Mish)
 - Visual
 - Primary, Secondary and Foreign keys
 - Constraints
@@ -55,7 +55,7 @@ Cancel changes
 - Score Management
 - Statistics Query
 
-# Sample Data
+# Sample Data 
 - Explanation
 - Script/Manual Data Entry
 - Data
