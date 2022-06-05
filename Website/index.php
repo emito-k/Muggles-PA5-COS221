@@ -10,7 +10,7 @@ include_once("config.php");
     </head>
     <body>
         <?php
-            include "./header.php";
+            include "./navbar.php";
         ?>
 
         <div class="w3-container">
@@ -39,6 +39,7 @@ include_once("config.php");
                             <th>Position</th>
                             <th>Gender</th>
                             <th>Team</th>
+                            <th>Goals</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,6 +51,7 @@ include_once("config.php");
                             <td>Goal Keeper</td>
                             <td>Male</td>
                             <td>Cool beans</td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -58,6 +60,7 @@ include_once("config.php");
                             <td>Wind Attacker</td>
                             <td>Femle</td>
                             <td>Cool beans</td>
+                            <td>1</td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -66,6 +69,7 @@ include_once("config.php");
                             <td>Goal Keeper</td>
                             <td>Female</td>
                             <td>Muggles</td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -74,6 +78,7 @@ include_once("config.php");
                             <td>Mid</td>
                             <td>Male</td>
                             <td>Muggles</td>
+                            <td>1</td>
                         </tr>
                     </tbody>
                 </table>
@@ -110,14 +115,14 @@ include_once("config.php");
                             <td>Steve</td>
                             <td>2</td>
                             <td>0</td>
-                            <td>0</td>
+                            <td>1</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Cool beans</td>
                             <td>Apinda</td>
                             <td>2</td>
-                            <td>0</td>
+                            <td>1</td>
                             <td>0</td>
                         </tr>
                     </tbody>
@@ -206,7 +211,6 @@ include_once("config.php");
                 <button class="w3-button w3-border">! Edit Match</button>
                 <button class="w3-button w3-red w3-border">- Remove Match</button>
 
-                <!-- TEAMS INFORMATION -->
                 <table class="w3-table-all w3-small">
                     <thead>
                         <tr>
@@ -217,6 +221,8 @@ include_once("config.php");
                             <th>Team B Score</th>
                             <th>Umpire</th>
                             <th>Winner</th>
+                            <th>Tournament</th>
+                            <th>Stage</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -229,6 +235,89 @@ include_once("config.php");
                             <td>2</td>
                             <td>Robert Black</td>
                             <td>Cool Beans</td>
+                            <td>Fake quidditch</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Muggles</td>
+                            <td>1</td>
+                            <td>Cool Beans</td>
+                            <td>0</td>
+                            <td>Robert Black</td>
+                            <td>Muggles</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- GOALS INFORMATION -->
+            <div class="table-container">
+                <div class="table-title">
+                    <h3>Goals</h3>
+                </div>
+
+                <!-- AJAX BUTTONS -->
+                <button class="w3-button w3-white w3-border">+ Remove Goal</button>
+                <button class="w3-button w3-border">! Edit Goal</button>
+                <button class="w3-button w3-red w3-border">- Remove Goal</button>
+
+                <table class="w3-table-all w3-small">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Player</th>
+                            <th>Team</th>
+                            <th>Match</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ADD PHP HERE -->
+                        <tr>
+                            <td>1</td>
+                            <td>Mito Khoza</td>
+                            <td>Cool Beans</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- TOURNAMENT INFORMATION -->
+            <div class="table-container">
+                <div class="table-title">
+                    <h3>Tournament data</h3>
+                </div>
+
+                <!-- AJAX BUTTONS -->
+                <button class="w3-button w3-white w3-border">+ Remove Tournament</button>
+                <button class="w3-button w3-border">! Edit Tournament</button>
+                <button class="w3-button w3-red w3-border">- Remove Tournament</button>
+
+                <table class="w3-table-all w3-small">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tournament Name</th>
+                            <th>Year</th>
+                            <th>Winner</th>
+                            <th>Runner Up</th>
+                            <th>Number of Teams</th>
+                            <th>Number of matches</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ADD PHP HERE -->
+                        <tr>
+                            <td>1</td>
+                            <td>Fake quidditch</td>
+                            <td>2022</td>
+                            <td>Cool Beans</td>
+                            <td>Muggles</td>
+                            <td>2</td>
+                            <td>1</td>
                         </tr>
                     </tbody>
                 </table>
@@ -238,12 +327,7 @@ include_once("config.php");
         </div>
 
         
+        <?php include "./footer.php"?>
 
-        <div class="w3-container" style="background-color: red; opacity: 70%;">
-            <p>This is my footer</p>
-        </div>
-
-
-        <!-- MODAL ELEMENTS FOR EDITING -->
     </body>
 </html>
