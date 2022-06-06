@@ -3,7 +3,7 @@
 include "./header.php";
 
 class Database {
-    public $db;
+    private $db;
 
     function __construct($db_hostname, $db_name, $db_username, $db_password) {
         $this->db = mysqli_connect($db_hostname, $db_username, $db_password, $db_name);     
