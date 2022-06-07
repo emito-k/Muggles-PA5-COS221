@@ -19,11 +19,17 @@ include_once("config.php");
             <label for="pfp"><b>Upload a profile picture</b></label>
             <input type="file" id="myFile" name="filename"><br><br>
 
-            <label for="fullname"><b>Fullname</b></label>
-            <input type="input" placeholder="Enter Fullname" name="fullname" required><br><br>
+            <label for="name"><b>Name</b></label>
+            <input type="input" placeholder="Enter Name" name="name" required><br><br>
+
+            <label for="surname"><b>Surname</b></label>
+            <input type="input" placeholder="Enter Surname" name="surname" required><br><br>
 
             <label for="birthday"><b>Birthday</b></label>
             <input type="date" id="birthday" name="birthday" required><br><br>
+
+            <label for="lang"><b>Language</b></label>
+            <input type="input" placeholder="Enter Language" name="lang" required><br><br>
 
             <label for="gender"><b>Gender</b></label>
             <select name="gender" id="gender">
@@ -42,10 +48,10 @@ include_once("config.php");
             <input type="input" placeholder="Enter Uniform Number" name="uniform_nr" required><br><br>
 
             <label for="height"><b>Height (m)</b></label>
-            <input type="number" id="height" name="height" min="1"><br><br>
+            <input type="number" id="height" placeholder="Enter Height" name="height" min="1"><br><br>
 
             <label for="weight"><b>Weight (kg)</b></label>
-            <input type="number" id="weight" name="weight" min="1"><br><br>
+            <input type="number" id="weight" placeholder="Enter Weight" name="weight" min="1"><br><br>
 
             <input type="submit">
         </form>
