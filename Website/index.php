@@ -26,9 +26,7 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Add player</button>
-                <button class="w3-button w3-border">! Edit player</button>
-                <button class="w3-button w3-red w3-border">- Remove player</button>
-
+                
                 <!-- TABLE -->
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -40,6 +38,8 @@ include_once("config.php");
                             <th>Gender</th>
                             <th>Team</th>
                             <th>Goals</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -52,6 +52,8 @@ include_once("config.php");
                             <td>Male</td>
                             <td>Cool beans</td>
                             <td>2</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td> <!-- edit btn -->
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td> <!-- delete btn -->
                         </tr>
                         <tr>
                             <td>2</td>
@@ -61,6 +63,8 @@ include_once("config.php");
                             <td>Femle</td>
                             <td>Cool beans</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -70,6 +74,8 @@ include_once("config.php");
                             <td>Female</td>
                             <td>Muggles</td>
                             <td>2</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -79,6 +85,8 @@ include_once("config.php");
                             <td>Male</td>
                             <td>Muggles</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -92,8 +100,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Add Team</button>
-                <button class="w3-button w3-border">! Edit Team</button>
-                <button class="w3-button w3-red w3-border">- Remove Team</button>
 
                 <!-- TEAMS INFORMATION -->
                 <table class="w3-table-all w3-small">
@@ -105,6 +111,8 @@ include_once("config.php");
                             <th>Number of Players</th>
                             <th>Wins</th>
                             <th>Losses</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -116,6 +124,8 @@ include_once("config.php");
                             <td>2</td>
                             <td>0</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -124,6 +134,8 @@ include_once("config.php");
                             <td>2</td>
                             <td>1</td>
                             <td>0</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -137,8 +149,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Remove Coach</button>
-                <button class="w3-button w3-border">! Edit Coach</button>
-                <button class="w3-button w3-red w3-border">- Remove Coach</button>
 
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -147,6 +157,8 @@ include_once("config.php");
                             <th>Name</th>
                             <th>Surname</th>
                             <th>Team</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -156,12 +168,16 @@ include_once("config.php");
                             <td>Muggles</td>
                             <td>Steve</td>
                             <td>Brown</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Cool beans</td>
                             <td>Apinda</td>
                             <td>Tekula</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -176,8 +192,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Remove Umpire</button>
-                <button class="w3-button w3-border">! Edit Umpire</button>
-                <button class="w3-button w3-red w3-border">- Remove Umpire</button>
 
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -186,6 +200,8 @@ include_once("config.php");
                             <th>Name</th>
                             <th>Surname</th>
                             <th>Games watched</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -195,6 +211,8 @@ include_once("config.php");
                             <td>Robert</td>
                             <td>Black</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -208,8 +226,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Remove Match</button>
-                <button class="w3-button w3-border">! Edit Match</button>
-                <button class="w3-button w3-red w3-border">- Remove Match</button>
 
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -223,6 +239,8 @@ include_once("config.php");
                             <th>Winner</th>
                             <th>Tournament</th>
                             <th>Stage</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -237,6 +255,8 @@ include_once("config.php");
                             <td>Cool Beans</td>
                             <td>Fake quidditch</td>
                             <td>2</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -248,6 +268,8 @@ include_once("config.php");
                             <td>Muggles</td>
                             <td></td>
                             <td></td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -261,8 +283,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Remove Goal</button>
-                <button class="w3-button w3-border">! Edit Goal</button>
-                <button class="w3-button w3-red w3-border">- Remove Goal</button>
 
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -271,6 +291,8 @@ include_once("config.php");
                             <th>Player</th>
                             <th>Team</th>
                             <th>Match</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -280,6 +302,8 @@ include_once("config.php");
                             <td>Mito Khoza</td>
                             <td>Cool Beans</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -293,8 +317,6 @@ include_once("config.php");
 
                 <!-- AJAX BUTTONS -->
                 <button class="w3-button w3-white w3-border">+ Remove Tournament</button>
-                <button class="w3-button w3-border">! Edit Tournament</button>
-                <button class="w3-button w3-red w3-border">- Remove Tournament</button>
 
                 <table class="w3-table-all w3-small">
                     <thead>
@@ -306,6 +328,8 @@ include_once("config.php");
                             <th>Runner Up</th>
                             <th>Number of Teams</th>
                             <th>Number of matches</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -318,6 +342,8 @@ include_once("config.php");
                             <td>Muggles</td>
                             <td>2</td>
                             <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
                         </tr>
                     </tbody>
                 </table>
