@@ -23,12 +23,12 @@ Cancel changes
 - ~~Location/Date/Time~~
 - ~~Sport structure e.g. federation/regions/teams/players~~
 
-# (E)ER-diagram (Yashvitha, Mishaelin)
-- Entities and Attributes
-- Complex and Derived Attributes
-- Relationships and cardinality
+# (E)ER-diagram (Yashvitha, Sovaria, Mishaelin)
+- ~~Entities and Attributes
+- ~~Complex and Derived Attributes
+- ~~Relationships and cardinality
 
-# Mapping (Yashvitha, Sovaria)
+# Mapping (Yashvitha, Sovaria, Mishaelin)
 - Regular Entity Types
 - Weak Entity Types
 - 1:1 Relationships
@@ -48,27 +48,27 @@ Cancel changes
 - Checks on applicable fields
 - Correctness
 
-# Web Management (Tiyego)
+# Web Management (Tiyego, Sovaria)
 - Player Management
 - Sport Heirarchy Management
 - Media Management
 - Score Management
 - Statistics Query
 
-# Sample Data 
+# Sample Data (Tiyego)
 - Explanation
 - Script/Manual Data Entry
 - Data
 
-# Analyse and Optimise
+# Analyse and Optimise (Tiyego)
 - Explanation
 - Optimsation
 - Interpretation
 
-# Development
+# Development (Tiyego, Sovaria, Yashvitha, Apinda, Mishaelin)
 - Git usage
 - README
 - Overall quality and impression
 
-# Demo
+# Demo (Tiyego, Sovaria, Yashvitha, Apinda, Mishaelin)
 # Group Cohesion
