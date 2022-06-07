@@ -24,9 +24,9 @@ Cancel changes
 - ~~Sport structure e.g. federation/regions/teams/players~~
 
 # (E)ER-diagram (Yashvitha, Sovaria, Mishaelin)
-- ~~Entities and Attributes
-- ~~Complex and Derived Attributes
-- ~~Relationships and cardinality
+- Entities and Attributes
+- Complex and Derived Attributes
+- Relationships and cardinality
 
 # Mapping (Yashvitha, Sovaria, Mishaelin)
 - Regular Entity Types
