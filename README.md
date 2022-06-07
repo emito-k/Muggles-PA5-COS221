@@ -23,7 +23,7 @@ Cancel changes
 - ~~Location/Date/Time~~
 - ~~Sport structure e.g. federation/regions/teams/players~~
 
-# (E)ER-diagram (Yashvitha)
+# (E)ER-diagram (Yashvitha, Mishaelin)
 - Entities and Attributes
 - Complex and Derived Attributes
 - Relationships and cardinality
@@ -40,7 +40,7 @@ Cancel changes
 - Unions
 - Correctness
 
-# Relation Exclusion (Mish)
+# Relation Exclusion (Mishaelin)
 - Visual
 - Primary, Secondary and Foreign keys
 - Constraints
@@ -48,7 +48,7 @@ Cancel changes
 - Checks on applicable fields
 - Correctness
 
-# Web Management (Mito)
+# Web Management (Tiyego)
 - Player Management
 - Sport Heirarchy Management
 - Media Management
