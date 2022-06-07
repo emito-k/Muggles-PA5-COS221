@@ -40,7 +40,7 @@ Cancel changes
 - Unions
 - Correctness
 
-# Relation Exclusion (Mishaelin)
+# Relation Exclusion (Yashvitha, Mishaelin)
 - Visual
 - Primary, Secondary and Foreign keys
 - Constraints
@@ -60,7 +60,7 @@ Cancel changes
 - Script/Manual Data Entry
 - Data
 
-# Analyse and Optimise (Tiyego)
+# Analyse and Optimise (Tiyego, Mishaelin)
 - Explanation
 - Optimsation
 - Interpretation
@@ -70,5 +70,5 @@ Cancel changes
 - README
 - Overall quality and impression
 
-# Demo (Tiyego, Sovaria, Yashvitha, Apinda, Mishaelin)
+# Demo
 # Group Cohesion
