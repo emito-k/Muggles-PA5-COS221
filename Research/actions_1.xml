@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sports-content xmlns="http://iptc.org/std/SportsML/2008-04-01"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://iptc.org/std/SportsML/2008-04-01/ 
+    ......../schema/sportsml-loose.xsd">
+<sports-metadata event-status="post-event"/>
+<sports-content-codes>
+<sports-content-code code-type="sport" code-name="Netball"/>
+<sports-content-code code-type="league" code-name="Telkom Netball League"/>
+<sports-content-code code-type="season" code-key="2022"/>
+</sports-content-codes>
+
+<sports-event>
+<event-metadata date-coverage-type="event" start-date="30-Apirl-2022" end-date-"30-April-2022">
+<site>
+<name full="Olive Convention Center/>
+<city>Durban</city>
+</site>
+</event-metadata>
+</sports-event>
+
+<team id="Aloes">
+<team-metadata>
+<name first="Eastern Cape" last="Aloes" full="Eastern Cape Aloes"/>
+<coach>Sameshia Esau</coach>
+</team-metadata>
+
+<team-stats score="35" event-outcome="win">
+<sub-score score="11" period-value="1"/>
+<sub-score score="10" period-value="2"/>
+<sub-score score="7" period-value="3"/>
+<sub-score score="7" period-value="4"/>
+</team-stats>
+
+<player id="1">
+<player-metadata position-event = "Wind Attacker" playing="yes">
+<name full="Noluthando Maliehe"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="2">
+<player-metadata position-event="Center" playing="yes">
+<name full="Busisiwe Mevana"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="3">
+<player-metadata position-event="Goal Shooter" playing="yes">
+<name full="Kaylin Coetzeer"/>
+</player-metadata>
+<player-stats goals-scored="24"/>
+</player>
+
+<player id="4">
+<player-metadata position-event="Goal Attacker" playing="yes">
+<name full="Juanita Van Tonder"/>
+</player-metadata>
+<player-stats goals-scored="9"/>
+</player>
+
+<player id="5">
+<player-metadata position-event="Goal Attacker" playing="yes">
+<name full="Nomxolisi Luvuno"/>
+</player-metadata>
+<player-stats goal-scored="2"/>
+</player>
+
+<player id="6">
+<player-metadata position-event ="Wind Attacker" playing="yes">
+<name full="Mothira Mohammed"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="7">
+<player-metadata position-event="Goal Defender" playing="yes">
+<name full="Jeanie Steyn"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="8">
+<player-metadata position-event="Goal Keeper" playing="yes">
+<name full="Zandre Smit"/>
+</player-metadata>
+<player-stats goal-scored="0"/>
+</player>
+
+<player id="9">
+<player-metadata position-event="bench" playing="no">
+<name full="Yandiswa Makasi"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="10">
+<player-metadata position-event="bench" playing="no">
+<name full="Siphosethu Kilani"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="11">
+<player-metadata position-event="bench" playing="no">
+<name full="Sinathi Bantom"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="12">
+<player-metadata position-event="bench" playing="no">
+<name full="Siyamthanda Dingiswayo"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="13">
+<player-metadata position-event="bench" playing="no">
+<name full="Mitha Sinxo"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="14">
+<player-metadata position-event="bench" playing="no">
+<name full="Mihlali Mgweba"/>
+</player-metadata>
+</player>
+
+<player-stats goals-scored="0"/>
+</team>
+
+<team id="Comets">
+<team-metadata>
+<name first="Comets" last="" full="Comets"/>
+<coach> Wendy Higson</coach>
+</team-metadata>
+
+<team-stats score="32" event-outcome="lose">
+<sub-score score="8" period-values="1"/>
+<sub-score score="11" period-values="2"/>
+<sub-score score="6" period-values="3"/>
+<sub-score score="7" period-values="4"/>
+</team-stats>
+
+<player id="1">
+<player-metadata position-event="Goal Attacker" playing="yes">
+<name full="Asekho Njeza"/>
+</player-metadata>
+<player-stats goals-scored="21"/>
+</player>
+
+<player id="2">
+<player-metadata position-event="Goal Shooter" playing="yes">
+<name full="Princess Kanetsi"/>
+</player-metadata>
+<player-stats goals-scored="10"/>
+</player>
+
+<player id="3">
+<player-metadata position-event="Center" playing="yes">
+<name full="Qamisa Jonas"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="4">
+<player-metadata position-event="Goal Keeper" playing="yes">
+<name full="Bongise Wete"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="5">
+<player-metadata position-event="Goal Defender" playing="yes">
+<name full="Nwabisa Maseni"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="6">
+<player-metadata position-event="Wing Defender" playing="yes">
+<name full="Britney Van Der Merwe"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="7">
+<player-metadata position-event ="Wing Attacker" playing="yes">
+<name full="Carla Viviers"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="8">
+<player-metadata position-event="Goal Scorer" playing="yes">
+<name full="Bianca Blom"/>
+</player-metadata>
+<player-stats goals-scored="1"/>
+</player>
+
+<player id="9">
+<player-metadata position-event="bench" playing="no">
+<name full="Ziyeza Mjoji"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="10">
+<player-metadata position-event="bench" playing="no">
+<name full="Tammy-Leigh Jonas"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="11">
+<player-metadata position-event="bench" playing="no">
+<name full="Kelly du Toit"/>
+</player-metadata>
+
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="12">
+<player-metadata position-event="bench" playing="no">
+<name full="Jamie-Leigh Goeda"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="13">
+<player-metadata position-event="bench" playing="no">
+<name full="Hanniska van Vuuren"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+
+<player id="14">
+<player-metadata position-event ="bench" playing="no">
+<name full="Athenkosi Mbengashe"/>
+</player-metadata>
+<player-stats goals-scored="0"/>
+</player>
+</team>
+</sports-content>
