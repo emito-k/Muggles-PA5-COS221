@@ -25,6 +25,10 @@ include_once("config.php");
             <label for="surname"><b>Surname</b></label>
             <input type="input" placeholder="Enter Surname" name="surname" required><br><br>
 
+            <label for="username"><b>Username</b></label>
+            <input type="input" placeholder="Enter Username" name="username" required><br><br>
+
+
             <label for="birthday"><b>Birthday</b></label>
             <input type="date" id="birthday" name="birthday" required><br><br>
 
