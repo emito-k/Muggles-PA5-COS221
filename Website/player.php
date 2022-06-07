@@ -88,7 +88,7 @@ include_once("config.php");
             <label for="prov"><b>State/Province</b></label>
             <input type="input" placeholder="Enter State/Province" name="prov" required><br><br>
 
-            <label for="code"><b>Country Code</b></label>
+            <label for="code"><b>Code</b></label>
             <input type="number" id="code" placeholder="Enter Code" name="code" min="1"><br><br>
 
             <input type="submit">
