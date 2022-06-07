@@ -1,6 +1,7 @@
 <?php
 // Include the database connection file
 include_once("config.php");
+include "./Database.php";
 ?>
 
 <html>
@@ -47,41 +48,31 @@ include_once("config.php");
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
-                            <th>Gender</th>
                             <th>Edit</th>
                             <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
                         <!-- ADD PHP HERE -->
-                        <tr class="1">
-                            <td>1</td>
-                            <td>Mito Khoza</td>
-                            <td>Male</td>
-                            <td><button type="submit" class="editbtn">Edit</button></td> <!-- edit btn -->
-                            <td><button type="submit" class="deletebtn">Delete</button></td></td> <!-- delete btn -->
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Yashvitha Kanaparthy</td>
-                            <td>Femle</td>
-                            <td><button type="submit" class="editbtn">Edit</button></td>
-                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Sovaria Naidu</td>
-                            <td>Female</td>
-                            <td><button type="submit" class="editbtn">Edit</button></td>
-                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Mish Naidoo</td>
-                            <td>Male</td>
-                            <td><button type="submit" class="editbtn">Edit</button></td>
-                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
-                        </tr>
+                        <?php
+                        
+                        $result = $db->execute_statement("SELECT entity_id, full_name FROM display_names WHERE entity_type='persons' LIMIT 100");
+
+                        if($result) {
+                            while($row = mysqli_fetch_row($result)) {
+                                echo "<tr>";
+
+                                foreach($row as $col) {
+                                    echo "<td>$col</td>";
+                                }
+                                $id = $row[0];
+                                echo "<td><a href='./player.php?action=edit&id=$id'><button class='editbtn'>Edit</button></a></td>";
+                                echo "<td><a href='./player.php?action=delete&id=$id'><button class='deletebtn'>Delete</button></a></td>";
+                                echo "</tr>";
+                            }
+                        }
+
+                        ?>
                     </tbody>
                 </table>
             </div>
