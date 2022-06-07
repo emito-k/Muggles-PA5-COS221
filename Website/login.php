@@ -18,11 +18,17 @@ include_once("config.php");
             <hr>
             <br>
             <form>
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required><br><br>
+                <label for="username"><b>Username</b></label>
+                <input type="input" placeholder="Enter Username" name="username" required><br><br>
 
                 <label for="password"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="password" required><br><br>
+
+                <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label><br><br>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p><br><br>
 
                 <div class="clearfix">
                     <button type="submit" class="loginbtn">Login</button>
