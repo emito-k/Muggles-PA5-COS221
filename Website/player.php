@@ -28,7 +28,6 @@ include_once("config.php");
             <label for="username"><b>Username</b></label>
             <input type="input" placeholder="Enter Username" name="username" required><br><br>
 
-
             <label for="birthday"><b>Birthday</b></label>
             <input type="date" id="birthday" name="birthday" required><br><br>
 
@@ -56,6 +55,41 @@ include_once("config.php");
 
             <label for="weight"><b>Weight (kg)</b></label>
             <input type="number" id="weight" placeholder="Enter Weight" name="weight" min="1"><br><br>
+
+            <hr>
+            <h3>Home Town</h3>
+            <hr>
+            <br>
+            <label for="timezone"><b>Time Zone</b></label>
+            <select name="timezone" id="timezone">
+                <option value="ast">AST</option>
+                <option value="est">EST</option>
+                <option value="cst">CST</option>
+                <option value="mst">MST</option>
+                <option value="pst">PST</option>
+                <option value="akst">AKST</option>
+                <option value="hst">HST</option>
+                <option value="utc_11">UTC-11</option>
+                <option value="utc_10">UTC+10</option>
+            </select><br><br>
+
+            <label for="lat"><b>Latitude</b></label>
+            <input type="input" placeholder="Enter Latitude" name="lat" required><br><br>
+
+            <label for="long"><b>Longitude</b></label>
+            <input type="input" placeholder="Enter Longitude" name="long" required><br><br>
+
+            <label for="sub"><b>Suburb</b></label>
+            <input type="input" placeholder="Enter Suburb" name="sub" required><br><br>
+
+            <label for="city"><b>City</b></label>
+            <input type="input" placeholder="Enter City" name="city" required><br><br>
+
+            <label for="prov"><b>State/Province</b></label>
+            <input type="input" placeholder="Enter State/Province" name="prov" required><br><br>
+
+            <label for="code"><b>Country Code</b></label>
+            <input type="number" id="code" placeholder="Enter Code" name="code" min="1"><br><br>
 
             <input type="submit">
         </form>
