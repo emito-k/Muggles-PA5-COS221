@@ -8,17 +8,28 @@ include_once("config.php");
         <title>Muggle - NetballNet</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
+    <style>
+        label{
+            display: inline-block;
+            width: 150px;
+            text-align: right;
+
+            body{
+            background-color: #DEF4FF;
+        }
+        }
+    </style>
     <body>
         <?php
             include "./navbar.php";
         ?>
 
-        <div class="w3-container" style="margin-left:130px; padding-top:50px;">
-            <h1>Signup</h1>
-            <p>Please fill in this form to create an account.</p>
+        <div class="w3-container" style="padding-top:50px;">
+            <h1 style="font-family:lucida handwriting; text-align:center; font-weight:bold;">Signup</h1>
+            <p style="text-align:center;">Please fill in this form to create an account.</p>
             <hr>
             <br>
-            <form>
+            <form style="text-align:center;">
                 <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="Enter Email" name="email" required><br><br>
 

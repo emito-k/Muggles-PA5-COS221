@@ -25,11 +25,11 @@ include_once("config.php");
         ?>
 
         <div class="w3-container" style="padding-top:50px;">
-            <h1 style="font-family:lucida handwriting; text-align:center; font-weight:bold;">Create Team</h1>
+            <h1 style="font-family:lucida handwriting; text-align:center;">Create Team</h1>
             <hr>
             <br>
-            <form style="text-align:center; border:2px solid black; padding:15px;">
-                <label for="pfp" style="width:250px;"><b>Upload a profile picture</b></label>
+            <form action="./team.php" method="post" style="text-align:center;">
+                <label style="width:250px;" for="pfp"><b>Upload a profile picture</b></label>
                 <input type="file" id="myFile" name="filename"><br><br>
 
                 <label for="t_name"><b>Team Name</b></label>
@@ -40,7 +40,7 @@ include_once("config.php");
                 <hr>
                 <br>
                 <label for="timezone"><b>Time Zone</b></label>
-                <select name="timezone" id="timezone">
+                <select name="timezone" id="timezone" style="width:210px;>
                     <option value="ast">AST</option>
                     <option value="est">EST</option>
                     <option value="cst">CST</option>

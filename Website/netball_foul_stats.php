@@ -14,6 +14,10 @@ include_once("config.php");
             width: 150px;
             text-align: right;
         }
+
+        body{
+            background-color: #DEF4FF;
+        }
     </style>
     <body>
         <?php
@@ -38,7 +42,7 @@ include_once("config.php");
                 <input type="number" id="pen" placeholder="Enter Cautions Pending" name="pen" min="0"><br><br>
 
                 <label for="pts_tot"><b>Caution Points Total</b></label>
-                <input type="number" id="pts_tot" placeholder="Enter Caution Points Total" name="pts_tot" min="1"><br><br>
+                <input type="number" id="pts_tot" placeholder="Enter Caution Points Total" name="pts_tot" min="1"> <br><br>
 
                 <label for="pts_pen"><b>Caution Points Pending</b></label>
                 <input type="number" id="pts_pen" placeholder="Enter Caution Points Pending" name="pts_pen" min="1"><br><br>

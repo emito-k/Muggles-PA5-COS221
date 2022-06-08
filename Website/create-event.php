@@ -24,19 +24,19 @@ include_once("config.php");
             include "./navbar.php";
         ?>
 
-        <div class="w3-container" style="padding-top:50px;">
-            <h1 style="font-family:lucida handwriting; text-align:center; font-weight:bold;">Create Event</h1>
+        <div class="w3-container" style=".padding-top:50px;">
+            <h1 style="font-family:lucida handwriting; text-align:center;">Create Event</h1>
             <hr>
             <br>
-            <form style="text-align:center; border:2px solid black; padding:15px;">
+            <form action="./event.php" method="post" style="text-align:center;">
                 <label for="e_name"><b>Event Name</b></label>
                 <input type="input" placeholder="Enter Event Name" name="e_name"><br><br>
 
                 <label for="start"><b>Start Date</b></label>
-                <input type="date" id="start" name="start" required><br><br>
+                <input type="date" id="start" name="start" required style="width:210px;"><br><br>
 
                 <label for="end"><b>End Date</b></label>
-                <input type="date" id="end" name="end" required><br><br>
+                <input type="date" id="end" name="end" required style="width:210px;"><br><br>
 
                 <label for="sites"><b>Sites</b></label>
                 <input type="input" placeholder="Enter Sites" name="sites" required><br><br>

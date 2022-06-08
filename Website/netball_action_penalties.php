@@ -14,6 +14,10 @@ include_once("config.php");
             width: 150px;
             text-align: right;
         }
+
+        body{
+            background-color: #DEF4FF;
+        }
     </style>
     <body>
         <?php

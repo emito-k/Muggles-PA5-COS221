@@ -1,7 +1,6 @@
 <?php
 // Include the database connection file
 include_once("config.php");
-include "./Database.php";
 ?>
 
 <html>
@@ -14,33 +13,19 @@ include "./Database.php";
             include "./navbar.php";
         ?>
 
-
-        <nav class="w3-sidebar w3-bar-block w3-light-grey" style="width:130px">
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Username')">Username</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Player')">Player</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Teams')">Teams</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Events')">Events</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Sites')">Sites</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Locations')">Locations</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Addresses')">Addresses</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Users')">Users</button>
-            <button class="w3-bar-item w3-button  tablink" onclick="openTab(event, 'Statistics')">Statistics</button>
-            <!-- <button class="w3-bar-item w3-button" onclick="openTab(event, 'Tokyo')">Events</button> -->
-        </nav>
-
-        <div class="w3-container" style="margin-left:130px; padding-top:50px;">
+        <div class="w3-container">
             <div class="page-title">
-                <h1>Welcome to the Netball-Network-Webwork!</h1>
+                <h1 >Welcome to the Netball-Network-Webwork!</h1>
             </div>
 
             <!-- PLAYER INFORMATION -->
-            <div class="table-container" id="Player">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Player data</h3>
                 </div>
 
                 <!-- AJAX BUTTONS -->
-                <button class="w3-button w3-white w3-border" onclick="document.location = './create-player.php'">+ Add player</button>
+                <button class="w3-button w3-white w3-border">+ Add player</button>
                 
                 <!-- TABLE -->
                 <table class="w3-table-all w3-small">
@@ -48,37 +33,67 @@ include "./Database.php";
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
+                            <th>Surname</th>
+                            <th>Position</th>
+                            <th>Gender</th>
+                            <th>Team</th>
+                            <th>Goals</th>
                             <th>Edit</th>
                             <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
                         <!-- ADD PHP HERE -->
-                        <?php
-                        
-                        $result = $db->execute_statement("SELECT entity_id, full_name FROM display_names WHERE entity_type='persons' LIMIT 100");
-
-                        if($result) {
-                            while($row = mysqli_fetch_row($result)) {
-                                echo "<tr>";
-
-                                foreach($row as $col) {
-                                    echo "<td>$col</td>";
-                                }
-                                $id = $row[0];
-                                echo "<td><a href='./player.php?action=edit&id=$id'><button class='editbtn'>Edit</button></a></td>";
-                                echo "<td><a href='./player.php?action=delete&id=$id'><button class='deletebtn'>Delete</button></a></td>";
-                                echo "</tr>";
-                            }
-                        }
-
-                        ?>
+                        <tr>
+                            <td>1</td>
+                            <td>Mito</td>
+                            <td>Khoza</td>
+                            <td>Goal Keeper</td>
+                            <td>Male</td>
+                            <td>Cool beans</td>
+                            <td>2</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td> <!-- edit btn -->
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td> <!-- delete btn -->
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Yashvitha</td>
+                            <td>Kanaparty</td>
+                            <td>Wind Attacker</td>
+                            <td>Femle</td>
+                            <td>Cool beans</td>
+                            <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sovaria</td>
+                            <td>Naidu</td>
+                            <td>Goal Keeper</td>
+                            <td>Female</td>
+                            <td>Muggles</td>
+                            <td>2</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mish</td>
+                            <td>Naidoo</td>
+                            <td>Mid</td>
+                            <td>Male</td>
+                            <td>Muggles</td>
+                            <td>1</td>
+                            <td><button type="submit" class="editbtn">Edit</button></td>
+                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
 
             <!-- TEAMS INFORMATION -->
-            <div class="table-container" id="Teams">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Teams data</h3>
                 </div>
@@ -127,7 +142,7 @@ include "./Database.php";
             </div>
 
             <!-- COACHES INFORMATION -->
-            <div class="table-container" id="Events">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Team Coaches data</h3>
                 </div>
@@ -170,7 +185,7 @@ include "./Database.php";
 
 
             <!-- UMPIRE INFORMATION -->
-            <div class="table-container" id="Addresses">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Umpires data</h3>
                 </div>
@@ -204,7 +219,7 @@ include "./Database.php";
             </div>
 
             <!-- MATCHES INFORMATION -->
-            <div class="table-container" id="Sites">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Team Matches data</h3>
                 </div>
@@ -261,7 +276,7 @@ include "./Database.php";
             </div>
 
             <!-- GOALS INFORMATION -->
-            <div class="table-container" id="Locations">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Goals</h3>
                 </div>
@@ -295,7 +310,7 @@ include "./Database.php";
             </div>
 
             <!-- TOURNAMENT INFORMATION -->
-            <div class="table-container" id="Users">
+            <div class="table-container">
                 <div class="table-title">
                     <h3>Tournament data</h3>
                 </div>
@@ -333,55 +348,12 @@ include "./Database.php";
                     </tbody>
                 </table>
             </div>
-
-            <!-- TOURNAMENT INFORMATION -->
-            <div class="table-container" id="Statistics">
-                <div class="table-title">
-                    <h3>Tournament data</h3>
-                </div>
-
-                <!-- AJAX BUTTONS -->
-                <button class="w3-button w3-white w3-border">+ Remove Tournament</button>
-
-                <table class="w3-table-all w3-small">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Tournament Name</th>
-                            <th>Year</th>
-                            <th>Winner</th>
-                            <th>Runner Up</th>
-                            <th>Number of Teams</th>
-                            <th>Number of matches</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- ADD PHP HERE -->
-                        <tr>
-                            <td>1</td>
-                            <td>Fake quidditch</td>
-                            <td>2022</td>
-                            <td>Cool Beans</td>
-                            <td>Muggles</td>
-                            <td>2</td>
-                            <td>1</td>
-                            <td><button type="submit" class="editbtn">Edit</button></td>
-                            <td><button type="submit" class="deletebtn">Delete</button></td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
 
             <!-- END OF THE WEB CONTAINER -->
-            <?php include "./footer.php"?>
         </div>
 
         
+        <?php include "./footer.php"?>
 
-        <!-- Scripts -->
-        <script src="./scripts/sidebar.js"></script>
     </body>
 </html>
