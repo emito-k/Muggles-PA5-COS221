@@ -1,6 +1,6 @@
 <?php
 // INCLUSIONS
-include "./header.php";
+include "./config.php";
 
 class Database {
     private $db;
@@ -17,6 +17,14 @@ class Database {
         // ! this is not safe, use PDO next time
         $result = mysqli_query($this->db, $query);
         return $result;
+    }
+
+    static function num_rows($result) {
+        return mysqli_num_rows($result);
+    }
+
+    static function fetch_row($result) {
+        return mysqli_fetch_row($result);
     }
 }
 

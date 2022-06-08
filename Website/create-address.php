@@ -8,27 +8,16 @@ include_once("config.php");
         <title>Muggle - NetballNet</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
-    <style>
-        label{
-            display: inline-block;
-            width: 150px;
-            text-align: right;
-        }
-
-        body{
-            background-color: #DEF4FF;
-        }
-    </style>
     <body>
         <?php
             include "./navbar.php";
         ?>
 
-        <div class="w3-container" style="padding-top:50px;">
-            <h1 style="font-family:lucida handwriting; text-align:center;">Create Address</h1>
+        <div class="w3-container" style="margin-left:130px; padding-top:50px;">
+            <h1>Create Address</h1>
             <hr>
             <br>
-            <form action="./address.php" method="post" style="text-align:center;">
+            <form action="./address.php" method="post">
                 <label for="lang"><b>Language</b></label>
                 <input type="input" placeholder="Enter Language" name="lang" required><br><br>
 
